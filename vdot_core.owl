@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_core.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -559,6 +560,12 @@ release date 28/02/2017</owl:versionInfo>
     <!-- http://www.ifomis.org/hdot/HDOT_CORE_017 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_CORE_017">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Zelle</rdfs:label>
     </rdf:Description>
     
@@ -663,6 +670,12 @@ release date 28/02/2017</owl:versionInfo>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#BFO_0000159"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A patient is any recipient of health care services. The patient is most often ill or injured and in need of treatment by a physician, advanced practice registered nurse, physiotherapist, physician assistant, psychologist, dentist, podiatrist, veterinarian, or other health care provider.</obo:IAO_0000115>
