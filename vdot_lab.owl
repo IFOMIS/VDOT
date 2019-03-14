@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_lab.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -34,7 +35,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3β-hydroxy group.</obo:IAO_0000115>
-        <rdfs:comment xml:lang="de">Cholesterin</rdfs:comment>
+        <rdfs:label xml:lang="de">Cholesterin</rdfs:label>
         <rdfs:label xml:lang="en">cholesterol</rdfs:label>
     </owl:Class>
     
@@ -64,6 +65,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115>A member of the class of biladienes that is a linear tetrapyrrole, product of heme degradation. It is produced in the reticuloendothelial system by the reduction of biliverdin and transported to the liver as a complex with serum albumin.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bilirubin</rdfs:label>
     </owl:Class>
@@ -97,6 +99,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_23114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23117"/>
         <obo:IAO_0000115 xml:lang="en">The chloride ion /ˈklɔːraɪd/ is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents. Chloride salts such as sodium chloride are often very soluble in water.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Chloride</obo:IAO_0000119>
         <oboInOwl:hasSynonym>chlorides</oboInOwl:hasSynonym>
@@ -659,6 +662,8 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16554">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16554</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Enzym</rdfs:label>
+        <rdfs:label xml:lang="en">enzyme</rdfs:label>
     </owl:Class>
     
 
@@ -691,6 +696,7 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C16725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16725</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">immonuprotein</rdfs:label>
     </owl:Class>
     
 
@@ -720,6 +726,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C18072 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C18072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
         <obo:IAO_0000115>A class of proteins that are involved in the inhibition of enzymes.</obo:IAO_0000115>
         <rdfs:label>enzyme inhibitor protein</rdfs:label>
     </owl:Class>
@@ -729,6 +736,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C21489 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C21489">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C17210"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21489</obo:IAO_0000412>
         <rdfs:label>transaminase</rdfs:label>
     </owl:Class>
@@ -738,6 +746,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25184 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25184">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16554"/>
         <obo:IAO_0000115 xml:lang="de">A family of homotetrameric cytoplasmic enzymes involved in the conversion of L-lactate and NAD to pyruvate and NADH in the final step of anaerobic glycolysis. In vertebrates, genes for three different subunits (LDH-A, LDH-B and LDH-C) exist.</obo:IAO_0000115>
         <oboInOwl:hasSynonym xml:lang="de">L-Lactic Acid Dehydrogenase</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="de">LDH</oboInOwl:hasSynonym>
@@ -765,6 +774,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C25293 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25293">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
         <oboInOwl:hasSynonym>ALT</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>SGPT</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>SGPT (ALT)</oboInOwl:hasSynonym>
@@ -828,6 +838,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C568 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C568">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000115>An immunoglobulin isotype (subclass) that characterizes secondary immune responses. This isotype is further broken down into several smaller subclasses (IgG1, IgG2a, IgG2b, IgG3 in the mouse; IgG1-4 in the human), and each subclass is differentially synthesized and secreted into the serum upon differential immune stimuli.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C568</obo:IAO_0000412>
@@ -839,9 +850,11 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C569 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C569">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C572"/>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C569</obo:IAO_0000412>
         <oboInOwl:hasSynonym>IgM</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">immunoglobulin M</rdfs:label>
     </owl:Class>
     
 
@@ -849,6 +862,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C572 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C572">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C572</obo:IAO_0000412>
         <oboInOwl:hasSynonym>Ig</oboInOwl:hasSynonym>
         <rdfs:label>immunoglobulin</rdfs:label>
@@ -859,6 +873,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C60651 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C60651">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C16725"/>
         <oboInOwl:hasSynonym>Pentraxin 1</oboInOwl:hasSynonym>
         <rdfs:label>C-reactive protein</rdfs:label>
     </owl:Class>
@@ -868,6 +883,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C68707 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C68707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
@@ -895,6 +911,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C88359 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C88359">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C18072"/>
         <rdfs:label>cystatin-C</rdfs:label>
     </owl:Class>
     
