@@ -1174,6 +1174,146 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000014 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000014">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">M0</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie mit minimaler Differenzierung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000015 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M1</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie ohne Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000016 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M2</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myeloische Leukämie mit Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000017 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M3</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Promyelozyten-Leukämie (APL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M4</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute myelomonozytäre Leukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000019 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Monozyten-Leukämie ohne Ausreifung</rdfs:label>
+        <rdfs:label>M5a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000020 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M5b</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Monozyten-Leukämie mit Ausreifung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000021 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M6</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Erythroleukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000022 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024"/>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/aerzte/aml/klassifikation/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>M7</oboInOwl:hasSynonym>
+        <rdfs:comment>In der Regel wird die AML heutzutage entsprechend der WHO-Klassifikation eingeteilt. Die FAB-Systematik ist an dieser Stelle aber der Vollständigkeit halber aufgeführt. Nach FAB-Klassifikation wird die AML anhand morphologischer und zytochemischer Eigenschaften der leukämischen Blasten in acht Subtypen M0-M7 eingeteilt. Einzelne Unterformen gehen dabei mit typischen zytogenetischen Veränderungen einher [2,3].</rdfs:comment>
+        <rdfs:label xml:lang="de">Akute Megakaryoblasten-Leukämie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <oboInOwl:hasSynonym>DISTAT1</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000024 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Early stages: De-novo AML in 1st remission, ALL in 1st remission, MDS with single lineage dysplasia, and MDS with single lineage dysplasia and ring sideroblasts, CML in 1st chronic phase.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Amin Turki (UK Essen)</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">frühes Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000025 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">Advanced disease stages were all other stages that did not correspond to early stages, such as AML in 2nd remission</obo:IAO_0000115>
+        <obo:IAO_0000119>Amin Turki (UK Essen)</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">fortgeschrittenes Stadium der HSCT Grunderkrankung</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
