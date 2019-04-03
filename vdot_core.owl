@@ -1701,6 +1701,82 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000021 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0014"/>
+        <obo:IAO_0000115 xml:lang="en">A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly. Common leukemias include acute myeloid leukemia, chronic myelogenous leukemia, acute lymphoblastic or precursor lymphoblastic leukemia, and chronic lymphocytic leukemia. Treatment is vital to patient survival; untreated, the natural course of acute leukemias is normally measured in weeks or months, while that of chronic leukemias is more often measured in months or years.</obo:IAO_0000115>
+        <obo:IAO_0000115>Leukemia with an acute onset, characterized by the presence of lymphoblasts in the bone marrow and the peripheral blood. It includes the acute B lymphoblastic leukemia and acute T lymphoblastic leukemia.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">leukemia</rdfs:label>
+        <rdfs:seeAlso>umls_cui: C0023418</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000022 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000021"/>
+        <obo:IAO_0000115 xml:lang="en">A clonal (malignant) hematopoietic disorder with an acute onset, affecting the bone marrow and the peripheral blood. The malignant cells show minimal differentiation and are called blasts, either myeloid blasts (myeloblasts) or lymphoid blasts (lymphoblasts).</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">acute leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000023 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000022"/>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3167</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>ALL</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Precursor Lymphoblastic Leukemia</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">acute lymphoblastic leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000022"/>
+        <obo:IAO_0000115 xml:lang="en">A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues. The classification of acute myeloid leukemias (AMLs) encompasses four major categories: 1) AML with recurrent genetic abnormalities; 2) AML with multilineage dysplasia; 3) Therapy-related AML; 4) AML not otherwise specified. The required bone marrow or peripheral blood blast percentage for the diagnosis of AML is 20% (WHO classification).</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3171</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>AML</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Acute Granulocytic Leukemia</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">acute myeloblastic leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000025 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000021"/>
+        <obo:IAO_0000115>The most common type of chronic lymphoid leukemia. It comprises 90% of chronic lymphoid leukemias in the United States. Morphologically, the neoplastic cells are small, round B-lymphocytes. This type of leukemia is not considered to be curable with available therapy. (WHO, 2001)</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3163</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>CLL</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>Chronic B-Cell Lymphocytic Leukemia</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">chronic lymphocytic leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000026 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000086"/>
+        <obo:IAO_0000115 xml:lang="de">Der Begriff myelodysplastische Syndrome (MDS) umfasst eine Reihe von Erkrankungen des Knochenmarks, bei denen zu wenig funktionstüchtige Blutzellen gebildet werden. Die einzelnen MDS-Formen unterscheiden sich hinsichtlich ihres Verlaufs, der Behandlungsmöglichkeiten und des Risikos, in eine akute Leukämie überzugehen. Die Erkrankung gehört zu den häufigsten bösartigen Bluterkrankungen des Erwachsenen und tritt vor allem bei Patienten über 60 Jahren auf. Auch wenn MDS heute noch nicht medikamentös heilbar sind, konnten in den letzten Jahren die Diagnostik und die Behandlungsmöglichkeiten durch neue wissenschaftliche Erkenntnisse stetig weiter verbessert werden.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.kompetenznetz-leukaemie.de/content/patienten/leukaemien/mds/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>MDS</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Myelodysplastische Syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000012">
