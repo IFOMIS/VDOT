@@ -1314,6 +1314,75 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000026 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C568"/>
+        <rdfs:label>Anti-CMV IgG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000027 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Titer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0061"/>
+        <rdfs:label xml:lang="de">virus DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000029 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CMV-DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000030 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C17610"/>
+        <rdfs:label xml:lang="de">Vollblut-Probe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115>Any substance that stimulates an immune response in the body, such as through antibody production or by presentation to a T-cell receptor after binding to a major histocompability complex (MHC).</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>CHEBI:59132</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">antigen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
