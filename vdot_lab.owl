@@ -355,7 +355,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CMO_0001348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
         <obo:IAO_0000115>Measurement of the average size of the three dimensional space occupied by a blood platelet, a minute, irregularly shaped, disklike, non-nucleated cytoplasmic body found in blood that functions to promote blood clotting.</obo:IAO_0000115>
         <obo:IAO_0000119>CMO</obo:IAO_0000119>
         <oboInOwl:hasSynonym>MPV</oboInOwl:hasSynonym>
