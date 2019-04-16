@@ -1407,6 +1407,25 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>QuantiFERON-CMV is a whole blood interferon-gamma release assay to monitor changes in cell-mediated immunity to cytomegalovirus (CMV). CMV is the most common and problematic viral infection in solid organ transplant recipients.
+
+QF-CMV is not a direct test determining CMV infection and should not solely be used to exclude CMV infection.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.quantiferon.com/products/quantiferon-cmv/</obo:IAO_0000119>
+        <rdfs:label>QuantiFERON-CMV Test</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
