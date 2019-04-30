@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_lab.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -275,9 +276,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12537">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
-        <oboInOwl:hasSynonym>CD4+ T Lymphocytes</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">T4 Cell</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="de">CD4-positive T-lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -286,11 +284,7 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C12542">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382"/>
-        <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -539,10 +533,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62869">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
-        <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
-        <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -551,7 +541,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#fma62863"/>
-        <rdfs:label>T-lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -568,10 +557,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma62870"/>
-        <oboInOwl:hasSynonym>Helper T-lymphocyte</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>T-Helferzellen</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="de">T-Lymphozyten</oboInOwl:hasSynonym>
-        <rdfs:label>T-helper lymphocyte</rdfs:label>
     </owl:Class>
     
 
@@ -580,7 +565,6 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#fma84382">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#fma70572"/>
-        <rdfs:label xml:lang="de">T-helper cell type 1</rdfs:label>
     </owl:Class>
     
 
