@@ -618,7 +618,6 @@ There are many different types of triglyceride, with the main division between s
         <obo:IAO_0000115 xml:lang="en">Th2 helper cells are the host immunity effectors against extracellular parasites including helminths. They are triggered by IL-4 and IL-2, and their effector cytokines are IL-4, IL-5, IL-9, IL-10, IL-13 and IL-25. The main effector cells are eosinophils, basophils, and mast cells as well as B cells, and IL-4/IL-5 CD4 T cells. The key Th2 transcription factors are STAT6 and GATA3.[10] IL-4 is the positive feedback cytokine for Th2 cells differentiation. Besides, IL-4 stimulates B-cells to produce IgE antibodies, which in turn stimulate mast cells to release histamine, serotonin, and leukotriene to cause broncho-constriction, intestinal peristalsis, gastric fluid acidification to expel helminths. IL-5 from CD4 T cells will activate eosinophils to attack helminths. IL-10 suppresses Th1 cells differentiation and function of dendritic cells. Th2 overactivation against autoantigen will cause Type1 IgE-mediated allergy and hypersensitivity. Allergic rhinitis, atopic dermatitis, and asthma belong to this category of autoimmunity. In addition to expressing different cytokines, Th2 cells also differ from Th1 cells in their cell surface glycans (oligosaccharides), which makes them less susceptible to some inducers of cell death</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>CD8+ T Lymphocytes</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym xml:lang="en">CD8+ T-Lymphocyte</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
@@ -965,7 +964,6 @@ B cells, unlike the other two classes of lymphocytes, T cells and natural killer
         <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/B_cell</obo:IAO_0000119>
         <oboInOwl:hasSynonym>B-Lymph</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">B-cell</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>B-lymph</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">B-Lymphozyt</rdfs:label>
         <rdfs:label xml:lang="en">B-lymphocyte</rdfs:label>
     </owl:Class>
