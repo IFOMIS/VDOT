@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_core_unit"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -197,6 +198,26 @@
         <oboInOwl:hasSynonym>1/pl</oboInOwl:hasSynonym>
         <rdfs:label>cells per picoliter</rdfs:label>
         <rdfs:label>n/pl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000011 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <rdfs:label xml:lang="en">n per 5x10^5 cells</rdfs:label>
+        <rdfs:label xml:lang="de">n/5x10^5 Zellen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000012 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core_unit.owl#vdot_core_unit_000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <rdfs:label xml:lang="en">n per 10^6 cells</rdfs:label>
+        <rdfs:label xml:lang="de">n/10^6 Zellen</rdfs:label>
     </owl:Class>
     
 
