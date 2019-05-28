@@ -120,6 +120,7 @@ release date 28/02/2017</owl:versionInfo>
     <!-- http://purl.obolibrary.org/obo/BFO_0000086 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000086">
+        <owl:inverseOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_000001"/>
         <rdfs:label>has quality at some time</rdfs:label>
     </rdf:Description>
     
@@ -277,6 +278,14 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_000001 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_000001">
+        <rdfs:label>quality of at some time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -298,6 +307,19 @@ release date 28/02/2017</owl:versionInfo>
         <rdfs:label>chimerism</rdfs:label>
         <rdfs:seeAlso>UMLS_CUI C0333678</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000145 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000145">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -394,6 +416,12 @@ release date 28/02/2017</owl:versionInfo>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1550,7 +1578,14 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Verwandtschaftsgrad</rdfs:label>
@@ -1693,6 +1728,12 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The volume of packed RED BLOOD CELLS in a blood specimen. The volume is measured by centrifugation in a tube with graduated markings, or with automated blood cell counters. It is an indicator of erythrocyte status in disease. For example, ANEMIA shows a low value; POLYCYTHEMIA, a high value.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">EFO</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Hämatokrit</rdfs:label>
