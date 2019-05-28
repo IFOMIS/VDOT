@@ -920,6 +920,12 @@ There are many different types of triglyceride, with the main division between s
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C90505">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A kidney function test that measures the fluid volume that is filtered from the kidney glomeruli to the Bowman&apos;s capsule per unit of time.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/NCIT_C90505</obo:IAO_0000412>
@@ -1412,7 +1418,7 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>QuantiFERON-CMV is a whole blood interferon-gamma release assay to monitor changes in cell-mediated immunity to cytomegalovirus (CMV). CMV is the most common and problematic viral infection in solid organ transplant recipients.
