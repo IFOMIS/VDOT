@@ -1497,6 +1497,23 @@ QF-CMV is not a direct test determining CMV infection and should not solely be u
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000038 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115 xml:lang="de">Das MCH (mean corpuscular haemoglobin) gibt den durchschnittlichen Hämoglobin-Gehalt eines einzelnen Erythrozyten an. Statt MCH-Wert findet sich manchmal auch der Begriff HbE-Wert.
+
+MCHC-Wert
+Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentration) die mittlere Konzentration des Hämoglobins in den Erythrozyten – also den Anteil des Hämoglobins an der Gesamtmasse der Erythrozyten. Der MCHC-Blutwert lässt sich berechnen, indem man das MCH durch das MCV dividiert.
+
+(vorläufige Definition)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://www.netdoktor.de/laborwerte/mch-mchc-mcv-und-rdw/</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="en">mch</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">mean corpuscular haemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
