@@ -585,6 +585,19 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000015">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000016">
@@ -592,6 +605,19 @@ There are many different types of triglyceride, with the main division between s
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000029">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -775,9 +801,10 @@ There are many different types of triglyceride, with the main division between s
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C25293">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
         <oboInOwl:hasSynonym>ALT</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>SGPT</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>SGPT (ALT)</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GPT</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>GPT (ALT)</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>serum glutamate pyruvate transaminase</oboInOwl:hasSynonym>
+        <rdfs:comment xml:lang="de">wenn in Serum gemessen, dann oft als SGPT bezeichnet</rdfs:comment>
         <rdfs:label>alanine transferase</rdfs:label>
     </owl:Class>
     
@@ -1426,6 +1453,46 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 QF-CMV is not a direct test determining CMV infection and should not solely be used to exclude CMV infection.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.quantiferon.com/products/quantiferon-cmv/</obo:IAO_0000119>
         <rdfs:label>QuantiFERON-CMV Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000035 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C21489"/>
+        <oboInOwl:hasSynonym xml:lang="de">GOT/ASAT</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Glutamat-Oxalacetat-Transaminase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000036 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000145"/>
+        <obo:IAO_0000115 xml:lang="de">Die Erythrozytenverteilungsbreite (EVB), die auch im deutschsprachigen Raum oft mit der englischsprachigen Abkürzung RDW (Red Blood Cell Distribution Width) bezeichnet wird, ist ein Parameter, der in der Laboratoriumsmedizin im Rahmen eines Blutbildes bestimmt wird. Die Messung der EVB, die in Prozent angegeben wird und ein Maß für die Größenverteilung der roten Blutkörperchen (Erythrozyten) im Blut ist, erfolgt mittels Durchflusszytometrie.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Erythrozytenverteilungsbreite</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">EVB</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">RWD</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Erythrozytenverteilungsbreite</rdfs:label>
+        <rdfs:label xml:lang="en">red blood cell distribution width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>definition and clarification needed</rdfs:comment>
+        <rdfs:label>CMV Early Ag</rdfs:label>
     </owl:Class>
     
 
