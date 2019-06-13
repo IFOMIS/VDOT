@@ -91,6 +91,8 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000179 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000179">
+        <oboInOwl:hasSynonym>1 per l</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>1/l</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>U/l</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>u/l</oboInOwl:hasSynonym>
         <rdfs:label>U per l</rdfs:label>
