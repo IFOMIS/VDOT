@@ -3,6 +3,7 @@
      xml:base="http://www.ifomis.org/vdot/vdot_medi.owl"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -71,6 +72,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <rdfs:label>peptide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17334 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17334">
@@ -132,6 +142,15 @@
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4974</obo:IAO_0000412>
         <rdfs:label>famciclovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33582"/>
+        <rdfs:label>organic molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -204,6 +223,19 @@
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0041 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0041">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000001">
@@ -221,6 +253,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a treatment that has as participants an extended organism and a drug product and that results in part of the drug product being located in the extended organism</obo:IAO_0000115>
@@ -387,6 +425,13 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>medication</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">medication plan</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Medikamentenverordnung</rdfs:label>
     </owl:Class>
