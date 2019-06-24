@@ -563,6 +563,19 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0053 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0053">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/hdot/HDOT_PM_0058 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
@@ -697,6 +710,25 @@ There are many different types of triglyceride, with the main division between s
         <oboInOwl:hasSynonym xml:lang="en">T8 Cells</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym xml:lang="en">T8 Lymphocyte</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">CD8-positive T-lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#C129972 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#C129972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The state when a recipient and their donor have the same alleles for tissue markers. A full match includes HLA-A, HLA-B, HLA-C, and HLA-DRB1. HLA match typing may also include alleles in the HLA-DQ serogroup.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT</obo:IAO_0000119>
+        <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C129972</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="en">HLA Match</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">hla match</rdfs:label>
     </owl:Class>
     
 
@@ -963,7 +995,7 @@ There are many different types of triglyceride, with the main division between s
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68707</obo:IAO_0000412>
@@ -1379,6 +1411,12 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasSynonym>DISTAT1</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Stadium der HSCT Grunderkrankung</rdfs:label>
     </owl:Class>
@@ -1588,6 +1626,15 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <rdfs:label xml:lang="en">blood group match</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1607,6 +1654,9 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#fma62864">
         <oboInOwl:hasSynonym xml:lang="de">MONO</oboInOwl:hasSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000008">
+        <rdfs:comment>Verwandtschaftsstatus wird oft eher damit gemeint.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000014">
         <obo:IAO_0000115 xml:lang="de">Alter eines Patienten am Tag der Stammzellentransplantation.</obo:IAO_0000115>
