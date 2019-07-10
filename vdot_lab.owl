@@ -1526,11 +1526,24 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000033 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000033">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_62854"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">CMV pp65 Ag Test</rdfs:label>
@@ -1541,7 +1554,7 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000034">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
@@ -1590,7 +1603,7 @@ QF-CMV is not a direct test determining CMV infection and should not solely be u
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000037">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
@@ -1598,7 +1611,7 @@ QF-CMV is not a direct test determining CMV infection and should not solely be u
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>definition and clarification needed</rdfs:comment>
-        <rdfs:label>CMV Early Ag</rdfs:label>
+        <rdfs:label xml:lang="de">CMV Early Ag Test</rdfs:label>
     </owl:Class>
     
 
@@ -1638,7 +1651,7 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
@@ -1665,7 +1678,7 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasSynonym>CMV-Nachweis mittels Real-Time PCR</oboInOwl:hasSynonym>
-        <rdfs:label>CMV-DNA-PCR</rdfs:label>
+        <rdfs:label xml:lang="de">CMV-DNA-PCR Test</rdfs:label>
     </owl:Class>
     
 
@@ -1684,6 +1697,63 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000042">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000040"/>
         <rdfs:label>CMV-DNA-PCR quantitativ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
+        <oboInOwl:hasSynonym>virus test</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">virological test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000044 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Anti-CMV-IgG Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000045 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Enzyme-linked Immunosorbent Assay (ELISA) bezeichnet ein antikörperbasiertes Nachweisverfahren (Assay). Wie der Radioimmunassay (RIA) gehört auch der ELISA zur Gruppe der Immunassay-Verfahren, basiert aber nicht auf einer Radioaktivitätsmessung, sondern auf einer enzymatischen Farbreaktion und gehört somit zu den enzymatischen Immunadsorptionsverfahren (EIA). Das nachzuweisende Antigen wurde ursprünglich über einen Erstantikörper an eine Mikrotiterplatte adsorptiv gebunden und angereichert, ein Enzym-gekoppelter Zweitantikörper (synonym: Detektionsantikörper) führte zur Reaktion eines Farbstoffsubstrates.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://de.wikipedia.org/wiki/Enzyme-linked_Immunosorbent_Assay</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ELISA-test</rdfs:label>
+        <rdfs:label>Enzyme-linked Immunosorbent Assay</rdfs:label>
     </owl:Class>
     
 
