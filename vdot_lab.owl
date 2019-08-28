@@ -1724,6 +1724,12 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C25662"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasSynonym>virus test</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="en">virological test</rdfs:label>
     </owl:Class>
