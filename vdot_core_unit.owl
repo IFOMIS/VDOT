@@ -40,6 +40,7 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000145"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000056"/>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002016"/>
                 </owl:unionOf>
             </owl:Class>
@@ -59,6 +60,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000056 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000056">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/vdot/vdot_core_unit.owl#0000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
