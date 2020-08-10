@@ -718,6 +718,19 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0052 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0052">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/hdot/HDOT_PM_0053 -->
 
     <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0053">
@@ -1956,6 +1969,15 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
         <rdfs:label xml:lang="de">Abstrichprobe</rdfs:label>
         <rdfs:label xml:lang="en">smear specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000033 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
+        <rdfs:label xml:lang="en">transplantation conditioning treatment</rdfs:label>
     </owl:Class>
     
 
