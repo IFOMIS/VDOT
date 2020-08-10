@@ -741,7 +741,8 @@ There are many different types of triglyceride, with the main division between s
         <obo:IAO_0000119>NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C129972</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="en">HLA Match</oboInOwl:hasSynonym>
-        <rdfs:label xml:lang="en">hla match</rdfs:label>
+        <rdfs:label xml:lang="en">HLA match</rdfs:label>
+        <rdfs:label xml:lang="en">HLA-match</rdfs:label>
     </owl:Class>
     
 
@@ -1793,6 +1794,34 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
         <obo:IAO_0000119>https://de.wikipedia.org/wiki/Enzyme-linked_Immunosorbent_Assay</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ELISA-test</rdfs:label>
         <rdfs:label>Enzyme-linked Immunosorbent Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
+        <rdfs:label xml:lang="en">HLA-match identical</rdfs:label>
+        <rdfs:label xml:lang="de">HLA-match identisch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
+        <rdfs:label xml:lang="en">HLA-match major</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
+        <rdfs:label xml:lang="en">HLA-match minor</rdfs:label>
     </owl:Class>
     
 
