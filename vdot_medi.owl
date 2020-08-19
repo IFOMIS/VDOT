@@ -343,19 +343,8 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000010">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
+        <rdfs:label xml:lang="de">Antiinfektiöse Therapie</rdfs:label>
         <rdfs:label xml:lang="en">antiinfective therapy</rdfs:label>
-        <rdfs:label xml:lang="de">antiinfektiöse therapie</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011 -->
-
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000011">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0052"/>
-        <obo:IAO_0000118 xml:lang="de">immunsuppressiva verabreichung</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">immunosuppressive therapy</rdfs:label>
-        <rdfs:label xml:lang="de">immunsuppressive therapie</rdfs:label>
     </owl:Class>
     
 
