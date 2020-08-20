@@ -427,6 +427,18 @@
     
 
 
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:IAO_0000115 xml:lang="de">Antithymozytenglobulin (ATG) ist ein immunsuppressiv wirkendes Gemisch polyklonaler Antikörper, welches meist zur Therapie von Abstoßungsreaktionen nach Organtransplantation eingesetzt wird.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Antithymozytenglobulin</obo:IAO_0000119>
+        <oboInOwl:hasSynonym xml:lang="de">ATG</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Antithymozytenglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000019 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000019">
@@ -472,6 +484,26 @@
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <rdfs:label xml:lang="de">Auftreten Rezidiv in Tagen nach Stammzelltransplantation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000024">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+        <rdfs:comment xml:lang="de">ATG wird aus dem Blut von Pferden (h-ATG) oder Kaninchen (r-ATG) gewonnen, nachdem diese gegen humane Thymozyten oder T-Lymphozyten immunisiert wurden. Da sich die Oberflächenantigene der T-Lymphozyten auch auf anderen Immunzellen befinden, wirkt ATG ebenso gegen B-Lymphozyten, dendritische Zellen, NK-Zellen und Makrophagen.</rdfs:comment>
+        <rdfs:label xml:lang="de">r-ATG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000025 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000025">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+        <rdfs:comment xml:lang="de">ATG wird aus dem Blut von Pferden (h-ATG) oder Kaninchen (r-ATG) gewonnen, nachdem diese gegen humane Thymozyten oder T-Lymphozyten immunisiert wurden. Da sich die Oberflächenantigene der T-Lymphozyten auch auf anderen Immunzellen befinden, wirkt ATG ebenso gegen B-Lymphozyten, dendritische Zellen, NK-Zellen und Makrophagen.</rdfs:comment>
+        <rdfs:label xml:lang="de">h-ATG</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
