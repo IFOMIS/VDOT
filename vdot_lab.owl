@@ -317,6 +317,18 @@ There are many different types of triglyceride, with the main division between s
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63599">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_63599</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="en">Fludara</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Fludarabin</rdfs:label>
+        <rdfs:label xml:lang="en">fludarabine phosphate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_82594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82594">
@@ -1822,6 +1834,18 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
         <rdfs:label xml:lang="en">HLA-match minor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <obo:IAO_0000115 xml:lang="en">Any heteroorganic entity containing at least one carbon-nitrogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_35352</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">organonitrogen compound</rdfs:label>
     </owl:Class>
     
 
