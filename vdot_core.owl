@@ -323,6 +323,20 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28901">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33304"/>
+        <obo:IAO_0000115 xml:lang="en">A methanesulfonate ester that is butane-1,4-diol in which the hydrogens of the hydroxy groups are replaced by methanesulfonyl groups. An alkylating antineoplastic agent, it is used for the treatment of chronic myeloid leukemia (although it has been largely replaced by newer drugs). It is also used as an insect sterilant.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_28901</obo:IAO_0000412>
+        <oboInOwl:hasSynonym xml:lang="en">Mitostan</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym xml:lang="en">Myeloleukon</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">busulfan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FMA_62852 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62852">
@@ -2105,6 +2119,18 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_core_000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
         <rdfs:label>GVHD-Grad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33304 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33304">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33675"/>
+        <obo:IAO_0000115 xml:lang="en">Any p-block molecular entity containing a chalcogen.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412 xml:lang="en">http://purl.obolibrary.org/obo/chebi#3_STAR</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">chalcogen molecular entity</rdfs:label>
     </owl:Class>
     
 
