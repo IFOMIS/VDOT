@@ -529,6 +529,12 @@
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Arztbrief-Datensatz is a collection of information extracted from medical reports on patients and letters of dismissal.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Arztbrief-Datensatz</rdfs:label>
         <rdfs:label xml:lang="en">letter of dismissal</rdfs:label>
