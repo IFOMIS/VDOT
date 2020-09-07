@@ -55,7 +55,7 @@
     <!-- http://purl.bioontology.org/ontology/UATC/L01AD01 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L01AD01">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L01AD01</obo:IAO_0000412>
         <rdfs:comment>see ATC</rdfs:comment>
         <rdfs:label xml:lang="de">Carmustin</rdfs:label>
@@ -67,7 +67,7 @@
     <!-- http://purl.bioontology.org/ontology/UATC/L04AA34 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L04AA34">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L04AA34</obo:IAO_0000412>
         <rdfs:comment>commercial product: Lemtrada</rdfs:comment>
         <rdfs:comment>see ATC</rdfs:comment>
@@ -79,7 +79,7 @@
     <!-- http://purl.bioontology.org/ontology/UATC/V10XX02 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/V10XX02">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/V10XX02</obo:IAO_0000412>
         <rdfs:comment>commercial product: Zevalin</rdfs:comment>
         <rdfs:comment>see Anatomical Therapeutic Chemical Classification</rdfs:comment>
@@ -157,7 +157,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_2687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2687">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#CHEBI:33304"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000115 xml:lang="en">A sulfonamide that is N-phenylmethanesulfonamide substituted by a methoxy group at position 3 and an acridin-9-ylamino group at position 4. It exhibits antineoplastic activity.</obo:IAO_0000115>
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_2687</obo:IAO_0000412>
