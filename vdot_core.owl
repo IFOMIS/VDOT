@@ -2093,6 +2093,19 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Anfangstag der Verabreichung eines Medikamentes</rdfs:label>
     </owl:Class>
     
@@ -2102,6 +2115,19 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Endtag der Verabreichung eines Medikamentes</rdfs:label>
     </owl:Class>
     
@@ -2113,6 +2139,53 @@ UMLS_CUI C0005670</oboInOwl:hasSynonym>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/hdot/HDOT_PM_0041"/>
         <rdfs:label xml:lang="de">Transplantation-Konditionierungsmedikamente</rdfs:label>
         <rdfs:label xml:lang="en">transplantation conditioning treatment medication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>TX</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Tag der Transplantation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000040 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym xml:lang="de">Zeitpunkt der Messung</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Tag der Messung</rdfs:label>
+        <rdfs:label xml:lang="en">day of measurement</rdfs:label>
     </owl:Class>
     
 
