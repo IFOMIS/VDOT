@@ -320,7 +320,7 @@ There are many different types of triglyceride, with the main division between s
     <!-- http://purl.obolibrary.org/obo/CHEBI_63599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63599">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#CHEBI:35352"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_63599</obo:IAO_0000412>
         <oboInOwl:hasSynonym xml:lang="en">Fludara</oboInOwl:hasSynonym>
         <rdfs:label xml:lang="de">Fludarabin</rdfs:label>
@@ -1834,6 +1834,70 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
         <rdfs:label xml:lang="en">HLA-match minor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
+        <obo:IAO_0000115>Serostatus refers to the presence or absence of a serological marker in the blood. The presence of detectable levels of a specific marker within the serum is considered seropositivity, while the absence of such levels is considered seronegativity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Serostatus</obo:IAO_0000119>
+        <rdfs:label>serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
+        <rdfs:label>CMV-serostatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000051 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus grenzwertig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000052 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000053 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
+        <rdfs:label>CMV-serostatus negative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000054 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasSynonym>CMV-serostatus measurement</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>measurement of CMV-serostatus</oboInOwl:hasSynonym>
+        <rdfs:label>CMV-serostatus test</rdfs:label>
     </owl:Class>
     
 
