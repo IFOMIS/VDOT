@@ -52,6 +52,18 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/UATC/G03CA01 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/G03CA01">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/G03CA01</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>Chlormadinon-Ethinylestradiol</oboInOwl:hasSynonym>
+        <rdfs:comment>see ATC</rdfs:comment>
+        <rdfs:label>ethinylestradiol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/UATC/L01AD01 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L01AD01">
@@ -105,6 +117,18 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_135930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_135930">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_135930</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>zanidip</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Lercanidipin</rdfs:label>
+        <rdfs:label>lercanidipine</rdfs:label>
+    </owl:Class>
     
 
 
@@ -167,10 +191,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28680">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A pyrimidine nucleoside in which cytosine is attached to D-arabinofuranose via a beta-N(1)-glycosidic bond. Used mainly in the treatment of leukaemia, especially acute non-lymphoblastic leukaemia, cytarabine is an antimetabolite antineoplastic agent that inhibits the synthesis of DNA. It also has antiviral and immunosuppressant properties.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_28680</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Cytarabin</rdfs:label>
+        <rdfs:label>cytarabine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3756">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>1,3-Dihydro-2H-1,4-benzodiazepin-2-one in which the hydrogens at positions 5 and 7 are substituted by 2-chlorophenyl and nitro groups, respectively. It is used in the treatment of all types of epilepsy and seizures, as well as myoclonus and associated abnormal movements, and panic disorders. However, its use can be limited by the development of tolerance and by sedation.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_3756</obo:IAO_0000412>
+        <rdfs:label>clonazepam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4027">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A phosphorodiamide that is 1,3,2-oxazaphosphinan-2-amine 2-oxide substituted by two 2-chloroethyl groups at the amino nitrogen atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>CHEBI</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4027</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Cyclophosphamid</rdfs:label>
+        <rdfs:label>cyclophosphamide</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_4031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000115 xml:lang="en">A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient&apos;s immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">KEGG:D00184</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">CHEBI</obo:IAO_0000119>
@@ -178,6 +241,17 @@
         <rdfs:comment>e.g. in Sandimmun optoral®</rdfs:comment>
         <rdfs:label xml:lang="de">Cyclosporin A</rdfs:label>
         <rdfs:label>cyclosporin A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4911">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4911</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Etoposid</rdfs:label>
+        <rdfs:label>etoposide</rdfs:label>
     </owl:Class>
     
 
