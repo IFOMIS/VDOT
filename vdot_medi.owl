@@ -76,6 +76,17 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/UATC/L01XC02 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L01XC02">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/L01XC02</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;MabThera&apos;, &apos;Rixathon&apos;, &apos;Truxima&apos;</rdfs:comment>
+        <rdfs:label>rituximab</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/UATC/L04AA34 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/L04AA34">
@@ -84,6 +95,17 @@
         <rdfs:comment>commercial product: Lemtrada</rdfs:comment>
         <rdfs:comment>see ATC</rdfs:comment>
         <rdfs:label>alemtuzumab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/UATC/V03AF08 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/UATC/V03AF08">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.bioontology.org/ontology/UATC/V03AF08</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Palifermin</rdfs:label>
+        <rdfs:label>palifermin</rdfs:label>
     </owl:Class>
     
 
@@ -137,6 +159,33 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <rdfs:label>peptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_168396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_168396">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">A member of the class of 2-benzofurans that is 2-benzofuran-1(3H)-one which is substituted at positions 4, 5, 6, and 7 by methyl, methoxy, (2E)-5-carboxy-3-methylpent-2-en-1-yl, and hydroxy groups, respectively. It is an antibiotic produced by Penicillium brevi-compactum, P. stoloniferum, P. echinulatum and related species. An immunosuppressant, it is widely used (partiularly as its sodium salt and as the 2-(morpholin-4-yl)ethyl ester prodrug, mycophenolate mofetil) to prevent tissue rejection following organ transplants and for the treatment of certain autoimmune diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_168396</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Mycophenolsaeure</rdfs:label>
+        <rdfs:label>mycophenolic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17303">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy).</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_17303</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>morphinum</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Morphin</rdfs:label>
+        <rdfs:label>morphine</rdfs:label>
     </owl:Class>
     
 
@@ -204,6 +253,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28876">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A phenylalanine derivative comprising L-phenylalanine having [bis(2-chloroethyl)amino group at the 4-position on the phenyl ring.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_28876</obo:IAO_0000412>
+        <rdfs:comment>commmercial product &apos;Alkeran&apos;</rdfs:comment>
+        <rdfs:label>melphalan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31824">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_31824</obo:IAO_0000412>
+        <rdfs:label>Mesna</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_3756 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3756">
@@ -246,6 +318,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44185">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_44185</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>MTX</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="de">Methotrexat</rdfs:label>
+        <rdfs:label>methotrexate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_4911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4911">
@@ -266,6 +350,19 @@
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_4974</obo:IAO_0000412>
         <rdfs:label>famciclovir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50729">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A dihydroxyanthraquinone that is 1,4-dihydroxy-9,10-anthraquinone which is substituted by 6-hydroxy-1,4-diazahexyl groups at positions 5 and 8.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_50729</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;Onkotrone&apos;, &apos;Novantron&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">mitoxantrone</rdfs:label>
     </owl:Class>
     
 
@@ -308,6 +405,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8107">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A imidazolidine-2,4-dione that consists of hydantoin bearing two phenyl substituents at position 5.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_8107</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>DILANTIN</oboInOwl:hasSynonym>
+        <rdfs:label>phenytoin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82557">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_82557</obo:IAO_0000412>
+        <rdfs:comment>commercial product &apos;Trecondi&apos;, &apos;Ovastat&apos;</rdfs:comment>
+        <rdfs:label>Treosulfan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_8774 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8774">
@@ -317,6 +438,30 @@
         <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
         <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_8774</obo:IAO_0000412>
         <rdfs:label>ramipril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9513">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000115>A racemate comprising equimolar amounts of R- and S-thalidomide.</obo:IAO_0000115>
+        <obo:IAO_0000119>CHEBI</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_9513</obo:IAO_0000412>
+        <rdfs:label xml:lang="de">Thalidomid</rdfs:label>
+        <rdfs:label>thalidomide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9570">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/CHEBI_9570</obo:IAO_0000412>
+        <oboInOwl:hasSynonym>tepadina</oboInOwl:hasSynonym>
+        <rdfs:label>Thiotepa</rdfs:label>
     </owl:Class>
     
 
