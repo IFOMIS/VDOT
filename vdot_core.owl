@@ -549,6 +549,19 @@ release date 28/02/2017</owl:versionInfo>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000007 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000018 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000018">
@@ -1343,6 +1356,12 @@ Complete Blood Count</oboInOwl:hasSynonym>
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_core.owl#C76244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A classification of blood based on the presence or absence of inherited antigenic substances on the surface of erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">NCIT</obo:IAO_0000119>
         <obo:IAO_0000412>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76244</obo:IAO_0000412>
