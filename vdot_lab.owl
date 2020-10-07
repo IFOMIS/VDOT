@@ -1813,9 +1813,9 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000046">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
-        <rdfs:label xml:lang="en">HLA-match identical</rdfs:label>
-        <rdfs:label xml:lang="de">HLA-match identisch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match identical</rdfs:label>
+        <rdfs:label xml:lang="de">blood group match identisch</rdfs:label>
     </owl:Class>
     
 
@@ -1823,8 +1823,8 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000047">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
-        <rdfs:label xml:lang="en">HLA-match major</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match major</rdfs:label>
     </owl:Class>
     
 
@@ -1832,8 +1832,8 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000048">
-        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#C129972"/>
-        <rdfs:label xml:lang="en">HLA-match minor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000039"/>
+        <rdfs:label xml:lang="en">blood group match minor</rdfs:label>
     </owl:Class>
     
 
