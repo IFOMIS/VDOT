@@ -699,7 +699,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000038"/>
         <obo:IAO_0000115 xml:lang="de">Antithymozytenglobulin (ATG) ist ein immunsuppressiv wirkendes Gemisch polyklonaler Antikörper, welches meist zur Therapie von Abstoßungsreaktionen nach Organtransplantation eingesetzt wird.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="de">https://de.wikipedia.org/wiki/Antithymozytenglobulin</obo:IAO_0000119>
         <oboInOwl:hasSynonym xml:lang="de">ATG</oboInOwl:hasSynonym>
