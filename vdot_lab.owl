@@ -1281,11 +1281,11 @@ Cystatin C ist ein alternativer endogener Filtrationsmarker, der in den letzten 
     <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
         <obo:IAO_0000115 xml:lang="en">Serostatus refers to the presence or absence of a serological marker in the blood. The presence of detectable levels of a specific marker within the serum is considered seropositivity, while the absence of such levels is considered seronegativity.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Serostatus</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">Serostatus</rdfs:label>
-        <rdfs:label xml:lang="en">serostatus</rdfs:label>
+        <rdfs:label xml:lang="en">unspecified serostatus</rdfs:label>
+        <rdfs:label xml:lang="de">unspezifizierter Serostatus</rdfs:label>
     </owl:Class>
     
 
@@ -1898,6 +1898,18 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
         <oboInOwl:hasSynonym>CMV-serostatus measurement</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>measurement of CMV-serostatus</oboInOwl:hasSynonym>
         <rdfs:label>CMV-serostatus test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000040"/>
+        <obo:IAO_0000115 xml:lang="de">Der relative Tag der Bestimmung von “CMV serostatus patient”</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="de">XplOit</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Tag der Messung des CMV-Serostatus</rdfs:label>
+        <rdfs:label xml:lang="en">day of measurement of CMV-serostatus</rdfs:label>
     </owl:Class>
     
 
