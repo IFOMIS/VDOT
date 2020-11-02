@@ -1891,8 +1891,14 @@ Im Gegensatz zum MCH beschreibt die MCHC (mean corpuscular haemoglobin concentra
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#C49286"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000155"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000049"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_lab.owl#vdot_lab_0000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasSynonym>CMV-serostatus measurement</oboInOwl:hasSynonym>
