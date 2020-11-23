@@ -85,6 +85,19 @@
     
 
 
+    <!-- http://www.ifomis.org/hdot/HDOT_PM_0058 -->
+
+    <rdf:Description rdf:about="http://www.ifomis.org/hdot/HDOT_PM_0058">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#data_1047 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#data_1047">
@@ -538,6 +551,33 @@
         <obo:IAO_0000115 xml:lang="en">Arztbrief-Datensatz is a collection of information extracted from medical reports on patients and letters of dismissal.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Arztbrief-Datensatz</rdfs:label>
         <rdfs:label xml:lang="en">letter of dismissal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="en">predicted to have CMV infection / reactivation within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="en">probability of CMV infection / reactivation within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00033 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:label xml:lang="en">CMV detected</rdfs:label>
     </owl:Class>
     
 
