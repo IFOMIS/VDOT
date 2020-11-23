@@ -558,7 +558,7 @@
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
         <rdfs:label xml:lang="en">predicted to have CMV infection / reactivation within 7 days</rdfs:label>
     </owl:Class>
     
@@ -567,17 +567,71 @@
     <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032 -->
 
     <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
         <rdfs:label xml:lang="en">probability of CMV infection / reactivation within 7 days</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00033 -->
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00034 -->
 
-    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00033">
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00034">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to have CMV infection / reactivation within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00035 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00035">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of CMV infection / reactivation within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00036 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00036">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to die within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00037 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00037">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">predicted to die within 21 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00038 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00038">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of death within 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00039 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00039">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040"/>
+        <rdfs:label xml:lang="en">probability of death within 21days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_data.owl#vdot_data_00040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000093"/>
-        <rdfs:label xml:lang="en">CMV detected</rdfs:label>
+        <rdfs:label xml:lang="en">model prognosis</rdfs:label>
     </owl:Class>
     
 
