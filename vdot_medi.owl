@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.ifomis.org/vdot/vdot_medi.owl#"
      xml:base="http://www.ifomis.org/vdot/vdot_medi.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:hdot="http://www.ifomis.org/hdot/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:oboInOwl1="oboInOwl:"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -773,6 +774,21 @@
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
         <rdfs:comment xml:lang="de">ATG wird aus dem Blut von Pferden (h-ATG) oder Kaninchen (r-ATG) gewonnen, nachdem diese gegen humane Thymozyten oder T-Lymphozyten immunisiert wurden. Da sich die Oberflächenantigene der T-Lymphozyten auch auf anderen Immunzellen befinden, wirkt ATG ebenso gegen B-Lymphozyten, dendritische Zellen, NK-Zellen und Makrophagen.</rdfs:comment>
         <rdfs:label xml:lang="de">h-ATG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000026 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000026">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000035"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">ATG-Verabreichung</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
