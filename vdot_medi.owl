@@ -790,6 +790,46 @@
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">ATG-Verabreichung</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000027 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000027">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000036"/>
+        <rdfs:label xml:lang="de">Anfangstag der Verabreichung von Konditionierungsmedikamenten</rdfs:label>
+        <rdfs:label xml:lang="en">start day conditioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000028 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000028">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000037"/>
+        <rdfs:label xml:lang="de">Endtag der Verabreichung von Konditionierungsmedikamenten</rdfs:label>
+        <rdfs:label xml:lang="en">stop day conditioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000029 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000029">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000036"/>
+        <rdfs:label xml:lang="de">Anfangstag der Verabreichung von ATG</rdfs:label>
+        <rdfs:label xml:lang="en">start day ATG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000030 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/vdot/vdot_core.owl#vdot_0000037"/>
+        <rdfs:label xml:lang="de">Endtag der Verabreichung von ATG</rdfs:label>
+        <rdfs:label xml:lang="en">stop day ATG</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
