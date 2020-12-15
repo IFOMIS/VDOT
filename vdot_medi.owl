@@ -830,6 +830,22 @@
         <rdfs:label xml:lang="de">Endtag der Verabreichung von ATG</rdfs:label>
         <rdfs:label xml:lang="en">stop day ATG</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000031 -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/vdot/vdot_medi.owl#vdot_medi_000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ifomis.org/hdot/HDOT_CORE_001"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">CMV-Infektion Erkennung</rdfs:label>
+        <rdfs:label xml:lang="en">CMV-infection detection</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
